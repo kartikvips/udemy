@@ -56,13 +56,27 @@
 
 
 
-i = 1
-n = 5
+# i = 1
+# n = 5
 
-until i == n 
-    p i
-    i += 1
-end
+# until i == n 
+#     p i
+#     i += 1
+# end
 
 
 
+# def count_s_and_i(string)
+#   i = 0
+#   count = 0
+#   while i < string.length
+#     char = string[i]
+#     if char == "i" || char == "s"
+#       count += 1
+#     end
+#     i += 1
+#     puts count
+#   end 
+# return count
+# end
+# puts count_s_and_i("mississippi")
