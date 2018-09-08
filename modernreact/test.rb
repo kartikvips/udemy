@@ -11,9 +11,24 @@
 #     end
 #     return return_arr
 # end
+def accum(s)
+	# your code
+  arr = s.split("")
+  arr.map!.with_index do |el, idx|
+    mapper = el * (idx+1)
+    mapper = mapper.capitalize
+    puts mapper
+    mapper
+  end 
 
+  arr.join("-")
+end
 
+puts accum("HbideVbxncC")
 
+arr = [1,2,3]
+arr.map {|el| el*2}
+puts arr
 # p unique_items([1,2,3,4,5,5,2,3])
 
 #### Ping Pong Filter ####
